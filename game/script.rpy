@@ -172,79 +172,79 @@ label begin:
 
     $ MC = "Player"
     "Твое имя..."
-    $ MC = renpy.input("First name{i}{size=-10}{color=#B0E0E6}{/color=#B0E0E6}{/size=-10}{/i}(Default Guy)", length=15) or "Guy"
-    $ MC2 = renpy.input("Last name{i}{size=-10}{color=#B0E0E6}{/color=#B0E0E6}{/size=-10}{/i}(Default Harrison)", length=15) or "Harrison"
+    $ MC = renpy.input("Имя{i}{size=-10}{color=#B0E0E6}{/color=#B0E0E6}{/size=-10}{/i}(Default Guy)", length=15) or "Guy"
+    $ MC2 = renpy.input("Фамилия{i}{size=-10}{color=#B0E0E6}{/color=#B0E0E6}{/size=-10}{/i}(Default Harrison)", length=15) or "Harrison"
     $ MCcap = MC.upper()
     $ MC2cap = MC2.upper()
     "Твое имя [MC] [MC2]."
     "И ты сказочно богат. Неприятно богатый."
     "И все из-за одного пьяного решения."
-    "It's been a few months since your life changed, but the seed was planted much earlier.."
+    "Прошло несколько месяцев с тех пор, как ваша жизнь изменилась, но семя было посажено гораздо раньше.."
 
     scene mcsolo008 with dissolve
-    "Six years ago, you'd just ended your shift at your shitty convenience store job."
+    "Шесть лет назад ты только что закончил свою смену на своей дерьмовой работе в круглосуточном магазине."
 
-    "Arriving home at 2 AM, you did what you'd always done - slammed a few beers and screwed around on the internet."
+    "Приехав домой в 2 часа ночи, вы сделали то, что делали всегда – выпили несколько кружек пива и пошалили в интернете."
 
-    "Usually you'd have just played some videogames, watched some porn, jerked off, and gone to bed."
+    "Обычно вы просто играли в видеоигры, смотрели порно, дрочили и ложились спать."
 
-    "But this night had been different."
-    "Instead, you found your way to a message board, in a dark corner of the internet, where some lone weirdo was talking about a new cryptocurrency - Kobalt Koin."
-
-
-    "You knew a little bit about crypto - mostly that it was a horrible waste of resources, and it'd made it nearly impossible for you to build a new gaming PC.."
+    "Но эта ночь была другой."
+    "Вместо этого вы нашли свой путь к доске объявлений в темном уголке Интернета, где какой-то одинокий чудак говорил о новой криптовалюте — Kobalt Koin."
 
 
-    "But, six beers in, dreaming of a better life, you allowed yourself to be swayed by the guy's passion."
+    "Вы немного знали о криптографии — в основном, это была ужасная трата ресурсов, и это сделало практически невозможным для вас создание нового игрового ПК."
 
-    "Dumping your entire checking account into this new cryptocurrency, you slammed another beer and went to bed, convinced you were a genius."
+
+    "Но, за шесть бутылок пива, мечтая о лучшей жизни, ты поддалась моменту."
+
+    "Вложив весь свой текущий счет в эту новую криптовалюту, вы выпили еще пива и легли спать, убежденные в том, что вы гений."
 
     scene mcsolo009 with dissolve
-    "When you woke up and realized what you'd done, you rushed to your computer, planning to undo your rash decision - only to find that the value of Kobalt had already plummeted."
+    "Когда вы проснулись и поняли, что сделали, вы бросились к своему компьютеру, планируя отменить свое опрометчивое решение, но обнаружили, что стоимость Кобальта уже резко упала."
 
 
-    "Your investment was now worth virtually worthless."
-    "Your money was gone."
-    "All you had was an enormous sum of Kobalt Koins, which were only valued at a fraction of a cent."
+    "Ваши инвестиции теперь практически ничего не стоили."
+    "Ваши деньги пропали."
+    "Все, что у вас было, это огромная сумма кобальтовых коинов, которые оценивались всего в доли цента.."
 
-    "And you knew in that moment - you were an idiot."
+    "И ты понял в тот момент - ты был идиотом."
     scene store_story_bg03 with dissolve
     show mc_outfit_work
     show mc_emo_sad
-    "Feeling a cold emptiness in the pit of your stomach, you dragged yourself to work and asked your manager for extra shifts, hoping you'd be able to cover your rent that month."
+    "Чувствуя холодную пустоту под ложечкой, вы поплелись на работу и попросили у своего менеджера дополнительные смены, надеясь, что сможете покрыть арендную плату в этом месяце."
 
 
     hide mc_outfit_work
     hide mc_emo_sad
     scene black with dissolve
-    "You checked on the value of Kobalt every so often, hoping against hope that it would rebound."
+    "Вы время от времени проверяли стоимость кобальта, надеясь что она восстановится."
 
     scene store_story_mc3
-    "At first it was every hour. Then every day."
-    "Every week."
-    "Every month."
-    "The price would fluctuate - up a little, down a little."
-    "But it never made sense to sell it. It hardly seemed worth the effort. After a while, you just.. forgot about it."
+    "Сначала это было каждый час. Потом каждый день."
+    "Каждую неделю."
+    "Каждый месяц."
+    "Цена колебалась - немного вверх, немного вниз."
+    "Но продавать его смысла не было. Вряд ли это стоило усилий. Через некоторое время вы просто... забыли об этом."
 
-    "It was just one of many dumb mistakes you'd made."
-    "With time, the whole fiasco simply.. faded from memory."
+    "Это была лишь одна из многих твоих глупых ошибок."
+    "Со временем это фиаско просто... стерлось из памяти."
     scene store_story_001 with dissolve
-    "Until a few months ago."
-    "There you were, still stuck in the same dead-end job, when you overheard two of your younger coworkers talking to each other..."
+    "До нескольких месяцев назад."
+    "Вы все еще застряли на той же тупиковой работе, когда услышали, как двое ваших коллег разговаривают друг с другом..."
 
-    br "I'm telling you, it's mooning! This is the time to buy!"
-    ni "Isn't that stuff terrible for the planet?"
-    br "Oh, you're worried about the environment now?"
-    ni "I--"
-    br "You're {i}always{/i} on your phone!"
-    br "Or playing videogames!"
-    br "Or watching those stupid cartoons.."
-    ni "That's not--"
-    br "I mean, it's all just electricity, you know? You use it anytime you put a photo on Picoram, or use Tweeter, or--"
+    br "Я говорю тебе, это золотая жила! Надо покупать!"
+    ni "Разве это не страшно для окружающей среды?"
+    br "О, ты беспокоишься об окружающей среде сейчас?"
+    ni "Я--"
+    br "Ты {i}всегда{/i} разговариваешь по телефону!"
+    br "Или играешь в видеоигры!"
+    br "Или смотришь эти дурацкие мультики.."
+    ni "Это не--"
+    br "Я имею в виду, это всего лишь электричество, понимаешь? Ты используешь его всякий раз, когда размещаешь фото на Picoram, или используешь Tweeter, или..."
 
-    ni "It-- it's not the same thing!"
-    ni "That stuff actually serves a purpose!"
-    br "Crypto serves a purpose too! Getting me a goddamn LAMBO!"
+    ni "Это... это не одно и то же!"
+    ni "Этот материал действительно служит цели!"
+    br "Криптовалюта тоже служит цели! Принеси мне чертову ЛАМБО!"
     scene store_story_bg01 with dissolve
     show mc_outfit_work:
         xalign 0.0
@@ -254,44 +254,44 @@ label begin:
         xalign 1.0
     show brent_emo_angry:
         xalign 0.65
-    "Joining the conversation, you felt it necessary to remind Brent that he was at work.."
+    "Вступая в разговор, вы посчитали нужным напомнить Бренту, что он на работе.."
 
-    mc "Brent, don't curse. There are customers around."
-    br "Ugh, okay {i}'Dad.'{/i}"
-    "You flinched."
-    "There it was, another reminder that you were too old to be working here.."
-    "Brent was always an asshole, but it stung a bit more to have him do it in front of Nicki."
+    mc "Брент, не ругайся. Вокруг клиенты."
+    br "Uгх, ладно {i}'Папа'{/i}"
+    "Вы вздрогнули."
+    "Вот оно, еще одно напоминание о том, что ты слишком стар, чтобы здесь работать..."
+    "Брент всегда был мудаком, но было немного обидно, когда он делал это на глазах у Ники."
 
     show nickie_working_emo_shock:
         xalign 1.0
     hide nickie_working_emo_neutral
-    ni "We just don't have that kind of money, babe!"
-    ni "It's hard enough keeping up with the rent.."
-    "And of course, she was dating this know-nothing prick. But, you tried not to hold that against her."
+    ni "У нас просто нет таких денег, детка!"
+    ni "Достаточно сложно уследить за арендной платой.."
+    "И, конечно же, она встречалась с этим ничего не знающим придурком. Но ты пытался не винить ее за это."
 
     show nickie_working_emo_sad:
         xalign 1.0
     hide nickie_working_emo_shock
-    mc "What are you guys talking about, anyways?"
+    mc "О чем вы вообще, ребята, говорите?"
     show brent_emo_smile:
         xalign 0.65
     hide brent_emo_angry
-    br "I'm just trying to explain to Nicki that this could change our lives!"
-    br "All we need to do is put our money in this Kobalt shit!"
-    br "It's a rocket to the moon, and if we don't get on now, we're gonna miss out!"
+    br "Я просто пытаюсь объяснить Ники, что это может изменить нашу жизнь!"
+    br "Все, что нам нужно сделать, это вложить наши деньги в это дерьмо Кобальта!"
+    br "Это ракета на Луну, и если мы не полетим сейчас, мы пропустим!"
     show mc_emo_shock with vpunch:
         xalign 0.0
     hide mc_emo_neutral
-    "Recognition dawned, and you felt your heart skip a beat. It couldn't be.."
+    "Понимание пришло, и вы почувствовали, как ваше сердце забилось. Не может быть.."
 
-    mc "Kobalt...?"
-    br "I'm telling you, it's already blowing up after that tech dude talked about it on his podcast!"
+    mc "Кобальт...?"
+    br "Говорю вам, это уже взорвалось после того, как тот чувак рассказал об этом в своем подкасте!"
 
-    br "If I'd gotten in a few years ago, I could've been a goddamn millionaire!"
-    br "Oops, sorry."
-    br "A goshdamn millionaire."
+    br "Если бы я купил несколько лет назад, я мог бы стать чертовым миллионером!"
+    br "Ой, извини."
+    br "Проклятым миллионер."
     scene store_story_mc2 with dissolve
-    "Walking away from the pair, your hands shaking, you went to the door for some fresh air."
+    "Отойдя от пары, с трясущимися руками, ты подошел к двери подышать свежим воздухом."
 
     ni "Brent.. stop."
     ni "[MC], hey-- come back.."
@@ -5221,7 +5221,7 @@ label humiliation_end:
 
 label end_game:
     scene black with dissolve
-    "This concludes Friends in Need: Chapter One."
+    "На этом «Друзья в беде» завершаются. Глава первая."
     jump ch2_start
 
 label ch2_start:
@@ -8794,7 +8794,7 @@ label ch2_mccondo_morning:
     mc "{i}sigh{/i}"
     mc "Guess I can't put it off any longer.."
     scene d2gc001 with dissolve
-    "After a shower and a change of clothes, you move onto the task that will consume most of your morning - reading letters addressed to Friends in Need."
+    "После душа и смены одежды вы переходите к задаче, которая займет большую часть вашего утра — чтению писем, адресованных Друзьям в беде."
 
     "As you stare at the stack of papers before you, one thing is abundantly clear - running a charitable organization is {i}way{/i} more work than you thought it would be."
 
@@ -9289,7 +9289,7 @@ label ch2_apartment1:
     mc "Oh, Mrs. Barron. Hello. Sorry to be so abrupt, I-- wait, how did you get this number?"
     md "Well.. I used to be an archivist. So, research is kind of my forte."
     scene d2ab015 with dissolve
-    mc "Ah, I see. Look, I don't mean to be rude, but after what I saw earlier, I'm sorry to say I, or rather the Friends in Need foundation, won't be able to help you out."
+    mc "Ах я вижу. Послушайте, я не хочу показаться грубым, но после того, что я увидел ранее, мне жаль, что я, или, вернее, фонд «Друзья в беде», не смогут вам помочь."
 
     md "Please, I-- my family really needs this! Gabriella isn't a bad kid, and what you saw today was.. it was out of character, really. She's just going through some things.."
 
@@ -11294,7 +11294,7 @@ label ch2_end1:
 
 label ch2_end_game:
     scene black with dissolve
-    "This concludes Friends in Need: Chapter Two."
+    "На этом заканчивается «Друзья в беде: Глава вторая».."
     jump ch3_start
 
 label ch3_start:
@@ -13719,7 +13719,7 @@ label ch3_concierge:
 
 
     "Why someone like {i}you{/i} was in {i}their{/i} building."
-    "But, that had all changed following your fateful meeting with Nicki. After your decision to form Friends in Need."
+    "Но все изменилось после вашей судьбоносной встречи с Ники. После вашего решения создать Друзья в беде."
 
     scene 3f004 with dissolve
     "Almost overnight, your neighbors' perception of you had shifted. No longer were you the strange, out-of-place loner. No, now you were.."
@@ -13859,7 +13859,7 @@ label ch3_street:
     ms "M-Mason."
     scene 3g012 with dissolve
     "You dig a card out of your pocket."
-    mc "Well Mason, I'm [MC]. I run a local charity -- Friends in Need? Maybe you've heard of it?"
+    mc "Что ж, Мейсон, я [МС]. Я руковожу местной благотворительной организацией -- Друзья в беде? Может быть, вы слышали об этом?"
 
     scene 3g013 with dissolve
     "He shakes his head as he takes your card, squinting as he tries to read it."
@@ -18597,7 +18597,7 @@ label ch3_mc_condo_end:
     scene 3m002 with dissolve
     ni "Still."
     ni "Hey, you want to watch a movie or something?"
-    mc "Can't. I still have work to do for Friends in Need."
+    mc "Не могу. У меня еще есть работа для Друзей в беде."
     scene 3m003 with dissolve
     "Groaning, you tilt your head back and blow out a frustrated sigh."
     mc "{i}Fuuuuuuck{/i} my life."
@@ -19717,7 +19717,7 @@ label ch3_bed_after_sex:
     jump ch3_end_game
 
 label ch3_end_game:
-    "This concludes Friends in Need: Chapter Three."
+    "На этом "Друзья в беде" завершены: Глава 3."
     jump hsspecial_start
 
 label hsspecial_start:
@@ -19726,10 +19726,10 @@ label hsspecial_start:
     mc "Hello?"
     mc "Am I speaking to Mr. Price?"
     scene hs001 with dissolve
-    mc "Yes, hi. My name's [MC] [MC2], and I run a small charity, Friends in-- oh, you have. Oh, thank you. No, no it's my pleasure. Really, I'm happy to do it."
+    mc "Да, привет. Меня зовут [MC] [MC2], я руковожу небольшой благотворительной организацией Друзья в... о, у вас есть. О, спасибо. Нет, нет, с удовольствием. Правда, я счастлив это сделать."
 
-    mc "Mr. Price, I don't want to take up too much of your time -- I know you're very busy."
-    mc "It's just that I'm soliciting sponsors for a little project that Friends in Need is putting together, and I was told by some mutual friends that you might want to be involved."
+    mc "Господин. Прайс, я не хочу отнимать у вас слишком много времени - я знаю, что вы очень заняты."
+    mc "Просто я ищу спонсоров для небольшого проекта, который организуют Друзья в беде, и мне сказали общие друзья, что вы могли бы принять в нем участие."
 
 
     scene hs002 with dissolve
@@ -19872,7 +19872,7 @@ label hsspecial_start:
     scene hs008c with dissolve
     "You flash a smile at the freckled girl."
     if nickirel == 0 or nickirel == 1:
-        mc "Me and you, baby. Friends in Need is a non-profit, not a neg-profit."
+        mc "Я и ты, детка. Организация Друзья в беде является некоммерческой, а не некоммерческой."
     elif nickirel == 2:
         mc "You're looking at it."
     mc "It all goes into the charity. And the charity gives it all back to the community, wherever it does the most good."
@@ -20336,7 +20336,7 @@ label hspecial_costume_menu:
             jump hsspecial_end
 
 label hsspecial_end:
-    "Thank you for playing Friends in Need: Halloween Special."
+    "Спасибо за игру "Друзья в беде": Специальный выпуск на Хэллоуин."
     "And from me to you -- have a Happy Halloween!"
     "Please save your game now."
     jump ch4_start
@@ -20695,7 +20695,7 @@ label ch4_start:
         scene 4ab012 with dissolve
         "Glowering at you, Nicki drops the controller."
         ni "When'd you get so good at Bear Knuckle?"
-        mc "I had a few months of uninterrupted rich-guy boredom before I started Friends in Need. Really expanded my horizons."
+        mc "У меня было несколько месяцев беспрерывной скуки, прежде чем я начал заниматься Друзьями в беде. Действительно расширил мои горизонты."
 
         ni "It shows. Is that a yes on the food pantry, then?"
         mc "Sure, I trust you. Just let me know what to put on the check."

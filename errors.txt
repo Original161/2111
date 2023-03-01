@@ -1,0 +1,22 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 18600: end of line expected.
+    mc "Не могу. У меня еще есть работа для "Друзей в беде"."
+                                             ^
+
+File "game/script.rpy", line 19732: end of line expected.
+    mc "Просто я ищу спонсоров для небольшого проекта, который организуют "Друзья в беде", и мне сказали общие друзья, что вы могли бы принять в нем участие."
+                                                                           ^
+
+File "game/script.rpy", line 19875: end of line expected.
+    mc "Я и ты, детка. Организация "Друзья в беде" является некоммерческой, а не некоммерческой."
+                                    ^
+
+File "game/script.rpy", line 20698: end of line expected.
+    mc "У меня было несколько месяцев беспрерывной скуки, прежде чем я начал заниматься "Друзьями в беде". Действительно расширил мои горизонты."
+                                                                                         ^
+
+Ren'Py Version: Ren'Py 8.0.3.22083102
+Wed Mar  1 13:24:40 2023
