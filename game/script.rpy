@@ -147,38 +147,38 @@ label start:
         $ mcdark = 0
         $ gabbygrope = 0
     call patch from _call_patch
-    "This game is intended for adults. By playing this game, you agree that you are at least 18 years of age, and that it violates no laws in your country of residence."
+    "Эта игра предназначена для взрослых. Играя в эту игру, вы соглашаетесь с тем, что вам не менее 18 лет, и что она не нарушает законов в стране вашего проживания.."
 
 
-    "All characters depicted within this game are at least 18 years of age."
-    "Furthermore, the creators of this game expect the player to understand and remember that some things should remain safely in the realm of fantasy - including some themes appearing in this game."
+    "Всем персонажам, изображенным в этой игре, не менее 18 лет.."
+    "Кроме того, создатели этой игры ожидают, что игрок поймет и помнит, что некоторые вещи должны безопасно оставаться в области фантастики, включая некоторые темы, появляющиеся в этой игре.."
 
 
-    "Dark fantasies are fun when played out in a safe space, whether in fiction or between two consenting adults with clear boundaries. But remember - consent is imperative, and {i}NO{/i} always means {i}NO.{/i}"
+    "Темные фантазии забавны, когда разыгрываются в безопасном пространстве, будь то в художественной литературе или между двумя взрослыми людьми с четкими границами. Но помните: согласие обязательно, и {i}НЕТ{/i} всегда означает {i}НЕТ{/i}."
 
 
-    "Do you agree to these terms?"
+    "Вы согласны с этими условиями?"
 
 label age_restriction_menu:
     menu:
-        "Yes." if True:
+        "Да." if True:
             jump begin
-        "No." if True:
+        "Нет." if True:
             jump exit_to_menu
 
 label begin:
     scene mcsolo001 with dissolve
-    "Here you are, living in a fancy condo, surrounded by all the toys you never dreamed you'd be able to afford."
+    "Вот вы и живете в роскошной квартире, окруженной всеми игрушками, о которых вы даже не мечтали."
 
     $ MC = "Player"
-    "Your name is..."
+    "Твое имя..."
     $ MC = renpy.input("First name{i}{size=-10}{color=#B0E0E6}{/color=#B0E0E6}{/size=-10}{/i}(Default Guy)", length=15) or "Guy"
     $ MC2 = renpy.input("Last name{i}{size=-10}{color=#B0E0E6}{/color=#B0E0E6}{/size=-10}{/i}(Default Harrison)", length=15) or "Harrison"
     $ MCcap = MC.upper()
     $ MC2cap = MC2.upper()
-    "Your name is [MC] [MC2]."
-    "And you are fabulously wealthy. Obnoxiously wealthy."
-    "And it's all because of one drunken decision."
+    "Твое имя [MC] [MC2]."
+    "И ты сказочно богат. Неприятно богатый."
+    "И все из-за одного пьяного решения."
     "It's been a few months since your life changed, but the seed was planted much earlier.."
 
     scene mcsolo008 with dissolve
@@ -4727,67 +4727,67 @@ label vaginal_rape_come_in_mouth:
     ni "{i}glak glak glak{/i}"
     "Your head swims with pleasure as she twists and pulls, trying to escape your assault."
     ni "{i}hhhhhk!{/i}"
-    ni "PLLZ!"
+    ni "Пожалуйста"
     scene bjdistant001 with dissolve
-    mc "Ah, ah.. no talking with your nn! mouth full.."
-    mc "MM! How's your sloppy cunt taste, whore?"
+    mc "Ах, ах... никаких разговоров с твоим набитым ртом.."
+    mc "ММ! Как на вкус твоя неряшливая пизда, шлюха?"
     ni "{i}sob{/i}"
-    ni "[MC], stop.."
+    ni "[MC], остановись..."
     mc "Lick it! Lick your cunt off my cock, you fucking piece of trash!"
-    ni "[MC], please!"
+    ni "[MC], пожалуйста!"
     menu:
-        "Hit her." if True:
+        "Ударь ее." if True:
             scene slap003 with vpunch
             "{i}SLAP{/i}"
-            mc "Now!"
-            ni "Aieeee!"
-        "Scream at her." if True:
+            mc "Сейчас!"
+            ni "Аииееее!"
+        "Кричи на нее." if True:
             scene cockout008 with vpunch
-            mc "Now, you dumb cunt! Or I'll put it up your fucking ass!"
+            mc "Теперь, ты, тупая пизда! Или я засуну это тебе в гребаную задницу!"
     scene justtip001 with dissolve
-    "Sobbing quietly, Nicki does as you command, licking the taste of herself off your turgid prick."
+    "Тихо всхлипывая, Ники делает то, что ты прикажешь, слизывая свой вкус с твоего набухшего члена."
 
-    mc "Good.. was that so fucking hard?"
+    mc "Хорошо.. это было так чертовски сложно?"
     scene bjdistant001 with dissolve
-    "Grabbing a handful of her hair, you resume fucking her mouth.."
+    "Схватив горсть ее волос, ты продолжаешь трахать ее в рот.."
     mc "Fucking nn! cunt.."
-    ni "{i}glk glk glk{/i}"
-    "Pistoning your cock in and out of her abused throat, overwhelmed with sensation, it's not long before you come.."
+    ni "{i}глк глк глк{/i}"
+    "Направляя свой член в ее истерзанное горло и из нее, переполненная ощущениями, ты скоро кончишь.."
 
     scene bjclose004 with vpunch
     scene white
     pause 0.2
     scene bjclose004 with dissolve
-    ni "Glk!"
-    mc "Ah! FUCK yes!"
-    mc "Swallow it, bitch."
+    ni "Глк!"
+    mc "Ах! БЛЯДЬ да!"
+    mc "Проглоти, сука."
     scene bjswallow006 with dissolve
-    "Her eyes flick to you for a moment, full of pain, betrayal, and anger."
+    "На мгновение ее глаза метнутся к вам, полные боли, предательства и гнева."
     ni "{i}glp{/i}"
-    "But when she sees you looming over her, fully in control, she simply sobs and does as you ask, gulping loudly as your cum comes to rest in her stomach."
+    "Но когда она видит, что вы нависаете над ней, полностью контролируя себя, она просто всхлипывает и делает, как вы просите, громко сглатывая, когда ваша сперма останавливается в ее животе."
 
     scene cockout002 with dissolve
-    mc "Heh.. good girl."
-    ni "{i}whimper{/i}"
+    mc "Хех.. хорошая девочка."
+    ni "{i}хныкать{/i}"
     jump rape_path_end
 
 label vaginal_rape_come_on_face:
     scene cockout002 with dissolve
-    "Shoving her away from you, you stand and rapidly stroke your cock in the traumatized girl's face, snot, tears, and mascara running down her chin."
+    "Оттолкнув ее от себя, ты встаешь и быстро гладишь своим членом травмированное лицо девушки, по подбородку которой стекают сопли, слезы и тушь."
 
     scene cockout008 with dissolve
-    "Moving into position before her, your eyes full of malice, your engorged prick in your hand, Nicki sees your intentions and tries to crawl away from you."
+    "Заняв позицию перед ней, ваши глаза полны злобы, ваш набухший член в руке, Ники видит ваши намерения и пытается отползти от вас."
 
-    mc "Ah, come here you little slut.."
-    ni "N-no! G-get away!"
-    mc "Come here you--"
+    mc "Ах, иди сюда, маленькая шлюха.."
+    ni "Н-нет! Г-отойди!"
+    mc "Иди сюда ты--"
     scene bjcumshot001 with vpunch
-    mc "-- WHORE!"
+    mc "-- ШЛЮХА!"
     scene cockout002 with dissolve
-    ni "Aiieee!"
+    ni "Аййййййй"
     scene bjfacial003 with dissolve
-    mc "Pretty, little fuck-pig aren't you? Smile for the camera."
-    "Retrieving your cellphone from the couch, you quickly snap a few photos to commemorate this occassion."
+    mc "Хорошенькая, маленькая свинка, не так ли? Улыбнитесь в камеру."
+    "Взяв с дивана свой мобильный телефон, вы быстро делаете несколько фотографий на память об этом событии."
 
     scene white
     pause 0.2
@@ -4832,7 +4832,7 @@ label rape_path_end:
     mc "Hush, don't move.."
     ni "{i}whimper{/i}"
     scene photoshoot015 with dissolve
-    mc "Perfect! Now {i}that's{/i} what a whore should look like."
+    mc "Идеальный! {i}Вот как{/i} должна выглядеть шлюха."
     ni "{i}whimper{/i}"
     mc "Now say, 'Cheese!'"
     ni ".. cheese.."
@@ -4841,16 +4841,16 @@ label rape_path_end:
     pause 0.2
     scene photoshoot015 with dissolve
     "Holding up the fat marker you used to humiliate her, you grin wolfishly at Nicki."
-    mc "Hmm, Nicki.. would you be a pal and hold this for me?"
-    ni "[MC]? W-what're you--"
+    mc "Хм, Ники... не могла бы ты быть другом и подержать это для меня?"
+    ni "[MC]?Ч-что ты--"
     scene black with dissolve
-    ni "W-wait! No!"
-    ni "Aoouwww!"
+    ni "П-подожди! Нет!"
+    ni "Оууууууууууууууууууууууу!"
     scene photoshoot016 with vpunch
-    ni "{i}whimper{/i}"
-    mc "Hah! Perfect! Now, hold that pose.."
-    ni "P-please.. just hurry and get this o-over with.."
-    ni "{i}sniff{/i}"
+    ni "{i}хныкать{/i}"
+    mc "Ха! Идеальный! Теперь задержитесь в этой позе.."
+    ni "П-пожалуйста.. просто поторопитесь и покончим с этим.."
+    ni "{i}нюхать{/i}"
     scene photoshoot017 with dissolve
     "Lifting your phone, you offer a wink and a winning smile as Nicki trembles and cries behind you."
 
@@ -4884,10 +4884,10 @@ label rape_path_end:
     scene ending001 with dissolve
     ni ".. I won't tell anyone.."
     mc "Tell them what?"
-    mc "You came here to get some money out of me, right? That's why Brent sent you over here?"
+    mc "Ты пришел сюда, чтобы вытянуть из меня немного денег, верно? Вот почему Брент прислал тебя сюда?"
 
     scene nnudeclose001 with dissolve
-    ni "[MC], no.. I.."
+    ni "[MC], нет.. я.."
     mc "Oh, shut up. He wanted to whore you out."
     mc "Well congratulations, now you're a whore."
     scene nnudeclose002 with dissolve
@@ -5124,7 +5124,7 @@ label nice_path_end:
     "You smile as she leaves, quietly closing the door behind her, and exiting your home."
     "{i}klk{/i}"
     scene mcsolo001 with dissolve
-    "You sigh in contentment, alone again. You finally had your dream girl."
+    "Вы вздыхаете в удовлетворении, снова в одиночестве. Наконец-то у тебя появилась девушка твоей мечты."
     "You finally had her exactly as you wanted her, not just using her for your own pleasure, but making sure she enjoyed it, too."
 
     "Oh sure, you could have done more. Could have given into your dark impulses.. forced her to do something she didn't want to do."
@@ -26730,9 +26730,9 @@ label ch4_night:
                             ni "Fine, one sec."
                         elif ch4_nicki_photoshoot == False:
                             ni "Fine, one sec."
-                        "Your phone buzzes as Nicki sends you a photo."
+                        "Ваш телефон вибрирует, когда Ники отправляет вам фотографию."
                         scene 4e046 with dissolve
-                        ni "There you go, boss. Same tits you saw this morning. Can I go to bed now?"
+                        ni "Вот так, босс. Те же сиськи, что вы видели сегодня утром. Могу я пойти спать сейчас?"
                         mc "Sure. Night, dude."
                         ni "Goodnight, [MC]."
                     "Just tell her goodnight." if True:
@@ -26773,21 +26773,21 @@ label ch4_night:
     mc "Shit, shit.. Come on, don't forget.."
     scene hsphoto002 with dissolve
     mc "There. Okay.. What was it.."
-    "You stare at the photo. Ashe.. Purple hair.. Black dress.. Bottles. Books."
-    "There was {i}something{/i}.."
+    "Вы смотрите на фото. Эш.. Фиолетовые волосы.. Черное платье.. Бутылки. Книги."
+    "Там было {i}что-то{/i}.."
     scene 4e043 with dissolve
-    mc ".. fuck."
-    "But, it's gone now. A dream, half-remembered. And the harder you try to grasp it, the more it slips through your fingers."
+    mc ".. Блядь."
+    "Но сейчас его нет. Сон, полузабытый. И чем сильнее ты пытаешься его схватить, тем больше оно ускользает из твоих пальцев."
 
     scene 4e041 with dissolve
-    "Putting your phone aside, you pull the blanket over yourself, and close your eyes."
-    "This time, you don't need to count sheep."
+    "Отложив телефон в сторону, вы натягиваете на себя одеяло и закрываете глаза."
+    "На этот раз вам не нужно считать овец."
     scene black with dissolve
     jump ch4_1_end
 
 label ch4_1_end:
-    "This concludes Friends in Need: Chapter Four - Part One."
-    "Please save your game, now."
+    "На этом «Друзья в беде» заканчиваются. Глава четвертая. Часть первая.."
+    "Пожалуйста, сохраните игру сейчас."
 
     jump exit_to_menu
 
